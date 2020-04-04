@@ -1,0 +1,61 @@
+// web | movil
+// 70/30 | 70/30
+.content1 {
+  display: flex;
+  flex-flow: row nowrap;
+  border-color: red;
+  background-color: grey;
+
+  .content1-1 {
+    flex: 3 1 auto;
+    width: 100%;
+    margin: 10px;
+    background-color: DodgerBlue;
+  }
+  .content1-2 {
+    flex: 1 3 auto;
+    width: 100%;
+    margin: 10px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.content2 {
+  background-color: red;
+
+  display: flex;
+  flex-flow: row wrap;
+  .content2-1 {
+    flex-grow: 1;
+  }
+  .content2-2 {
+    flex-grow: 1;
+  }
+}
+.content3 {
+  display: flex;
+  flex-flow: row wrap;
+
+  .content3-1 {
+    flex: 1 1 auto;
+  }
+  .content3-2 {
+    flex: 1 1 auto;
+  }
+  .content3-3 {
+    flex: 1 1 auto;
+  }
+}
+.content4 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+
+  .content4-2 {
+    flex: 1 1 800px;
+    width: 80%;
+  }
+}

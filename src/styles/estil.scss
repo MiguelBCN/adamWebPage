@@ -1,0 +1,48 @@
+@import "reset";
+@import "variables";
+@import "disposicion";
+
+.cabezal{
+    color: red;;
+}
+
+div{
+    div{background-color: yellow;}
+    
+}
+p{
+    background-color: red;;
+}
+.titulo1{
+    background-color: $titulo1;
+    height: 300px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    h2{
+        
+        color: rgb(53,136,204);
+        background-color: red;
+        font-size: 60px;
+        position: absolute;
+        right: 20%; 
+        align-self: center;
+        p{
+            text-align: right;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: $titulo1;
+        } 
+        
+        
+        
+    }
+}
+.button-free-trial{
+    background-color: $boton-trial1;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 5px;
+    color:white;
+    
+    
+}

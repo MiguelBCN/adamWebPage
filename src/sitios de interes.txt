@@ -1,0 +1,2 @@
+https://www.freecodecamp.org/news/how-to-block-unproductive-websites-and-boost-your-productivity-using-javascript-20534011cccc/
+https://developer.chrome.com/extensions/webRequest
