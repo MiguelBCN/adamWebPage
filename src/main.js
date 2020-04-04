@@ -1,0 +1,1 @@
+//El siguiente Archivo se encargara de la comprobacion de datos introducidos por el usuario, control para bloquear sitios web y llamadas a un json para desplegar la informacion necesaria

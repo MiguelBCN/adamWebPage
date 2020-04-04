@@ -1,18 +1,16 @@
+//reset se encarga dejar los html tags que usaremos limpios quitandoles los atributos por defecto cxomo el margen por ejemplo
 @import "reset";
+//variables para almacenar los color principales y otros datos que se puedan usar en la web 
 @import "variables";
+//disposicion contiene las clases que se usaran como plantilla para el sitio web , la idea es tener un sistema responsive imtiando a bootstrap.
 @import "disposicion";
 
 .cabezal{
-    color: red;;
+ 
 }
 
-div{
-    div{background-color: yellow;}
-    
-}
-p{
-    background-color: red;;
-}
+
+
 .titulo1{
     background-color: $titulo1;
     height: 300px;
@@ -43,6 +41,7 @@ p{
     width: fit-content;
     padding: 5px;
     color:white;
+    display: inline-block;
     
     
 }

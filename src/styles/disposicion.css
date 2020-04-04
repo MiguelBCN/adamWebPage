@@ -1,3 +1,17 @@
+/*
+Tabla de definiciones para la distribucion se usara flexbox 
+clase     web       movil       divs
+
+content1  30/70     30/70       2
+content2	50/50	    100/100	    2
+content3	33/33/33	100/100/100	3
+content4	20/60/20	100	        3
+content5	50/50	    50/50	      2
+titulo1   100       100         1
+banner1   100       100         1
+pie-pagina 100/100  100/100     2
+
+*/
 .content1 {
   display: -webkit-box;
   display: -ms-flexbox;
